@@ -1,0 +1,17 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mainview",
+        "designer|userClassName": "InitialView",
+        "fullscreen": true,
+        "html": "Sample",
+        "scrollable": "vertical"
+    },
+    "designerId": "1b43d045-dd6a-4fd1-9043-523bb39c660b"
+}

@@ -1,0 +1,48 @@
+{
+    "name": "gitpersonaldiary",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "1b43d045-dd6a-4fd1-9043-523bb39c660b"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "388cc62d-2a89-48bc-8928-61ff29482d99",
+            "1686541f-1d85-48e7-b48d-193339189b13"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
