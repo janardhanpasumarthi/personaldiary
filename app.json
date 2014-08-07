@@ -28,6 +28,9 @@
          "theme": "Default",
          "path": "theme/sencha-touch-1686541f-1d85-48e7-b48d-193339189b13.css",
          "_architect_active_theme": true
+      },
+      {
+         "path": "resources/css/diary.css"
       }
    ],
    "appCache": {

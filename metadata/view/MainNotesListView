@@ -6,8 +6,156 @@
     },
     "codeClass": null,
     "userConfig": {
+        "cls": [
+            "mainnotes-listview-cls"
+        ],
         "designer|userAlias": "mainnoteslistview",
-        "designer|userClassName": "MainNotesListView"
+        "designer|userClassName": "MainNotesListView",
+        "layout": "fit"
     },
-    "designerId": "78db8331-6306-4b58-b145-490f69e21a70"
+    "designerId": "78db8331-6306-4b58-b145-490f69e21a70",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "topToolbar",
+                "designer|uiInterfaceName": "light",
+                "docked": "top",
+                "ui": "light"
+            },
+            "designerId": "391ac0fa-1d0c-4f63-8754-b9fda19be506",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-button-cls"
+                        ],
+                        "designer|displayName": "addNewNote",
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "icon": "resources/images/addnote.png",
+                        "scale": "large",
+                        "text": null,
+                        "ui": "plain"
+                    },
+                    "designerId": "d03e72f1-5bcf-40c3-b622-d8a1309474f4",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "scale",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "55335814-c9b0-484d-a851-aff6aaff0ef3"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "toolbar-button-cls"
+                        ],
+                        "designer|displayName": "moreSettings",
+                        "designer|uiInterfaceName": "plain",
+                        "icon": "resources/images/more.png",
+                        "text": null,
+                        "ui": "plain"
+                    },
+                    "designerId": "c2ac6085-a437-4d92-a68e-b1ff62bcfebc"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "bottomToolbar",
+                "designer|uiInterfaceName": "light",
+                "docked": "bottom",
+                "ui": "light"
+            },
+            "designerId": "467e0715-f709-4905-8752-ea3a041e8b2a",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": true,
+                        "cls": [
+                            "toolbar-button-cls"
+                        ],
+                        "designer|displayName": "Calendar",
+                        "designer|uiInterfaceName": "plain",
+                        "icon": "resources/images/calendar.png",
+                        "text": null,
+                        "ui": "plain"
+                    },
+                    "designerId": "1094773d-69f7-4c63-8d72-31b2ba63cff5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "listview-cls"
+                ],
+                "designer|displayName": "notesListView"
+            },
+            "designerId": "7dce390f-d34c-4fbf-9f0a-96581b71497b",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<div>List Item {string}</div>"
+                        ]
+                    },
+                    "designerId": "200b2ac9-c5e7-4a51-a915-ba29261132cb"
+                }
+            ]
+        }
+    ]
 }

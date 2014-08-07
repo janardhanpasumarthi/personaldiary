@@ -1,0 +1,13 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css",
+        "url": "resources/css/diary.css"
+    },
+    "designerId": "8fd8da3c-289a-41e2-aafa-88834286517b"
+}

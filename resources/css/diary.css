@@ -1,0 +1,22 @@
+.mainnotes-listview-cls{
+    
+    background : url('../images/waterdrops.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.listview-cls, .mainnotes-listview-cls .x-toolbar{
+    
+    background : transparent !important;
+}
+
+.mainnotes-listview-cls .x-toolbar{
+    
+    border-color : whitesmoke !important;
+}
+.toolbar-button-cls .x-button-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    width : 32px;
+    height : 32px;
+}

@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "activeItem": 1,
         "designer|initialView": true,
         "designer|userAlias": "mainview",
         "designer|userClassName": "InitialView",
@@ -33,7 +34,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "designerId": "d8972e6a-10dd-409d-96a5-e547396b0ba6",
+            "designerId": "c78309d2-3e10-423f-a19b-4c9c03280c87",
             "masterInstanceId": "78db8331-6306-4b58-b145-490f69e21a70"
         },
         {

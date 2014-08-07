@@ -25,6 +25,7 @@ Ext.define('MyDiary.view.InitialView', {
     ],
 
     config: {
+        activeItem: 1,
         fullscreen: true,
         layout: 'card',
         scrollable: 'vertical',

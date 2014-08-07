@@ -638,7 +638,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "MyDiary.view.Main": []
+  "MyDiary.view.InitialView": [],
+  "MyDiary.view.LoginPanel": [],
+  "MyDiary.view.Main": [],
+  "MyDiary.view.MainNotesListView": [],
+  "MyDiary.view.RegistrationPanel": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1357,7 +1361,19 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "MyDiary.view.InitialView": [
+    "widget.mainview"
+  ],
+  "MyDiary.view.LoginPanel": [
+    "widget.loginpanel"
+  ],
   "MyDiary.view.Main": [
     "widget.main"
+  ],
+  "MyDiary.view.MainNotesListView": [
+    "widget.mainnoteslistview"
+  ],
+  "MyDiary.view.RegistrationPanel": [
+    "widget.registrationpanel"
   ]
 });

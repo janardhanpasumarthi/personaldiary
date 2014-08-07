@@ -17,7 +17,63 @@ Ext.define('MyDiary.view.MainNotesListView', {
     extend: 'Ext.Panel',
     alias: 'widget.mainnoteslistview',
 
+    requires: [
+        'Ext.Toolbar',
+        'Ext.Button',
+        'Ext.Spacer',
+        'Ext.dataview.List',
+        'Ext.XTemplate'
+    ],
+
     config: {
+        cls: 'mainnotes-listview-cls',
+        layout: 'fit',
+        items: [
+            {
+                xtype: 'toolbar',
+                docked: 'top',
+                ui: 'light',
+                items: [
+                    {
+                        xtype: 'button',
+                        scale: 'large',
+                        cls: 'toolbar-button-cls',
+                        ui: 'plain',
+                        icon: 'resources/images/addnote.png'
+                    },
+                    {
+                        xtype: 'spacer'
+                    },
+                    {
+                        xtype: 'button',
+                        cls: 'toolbar-button-cls',
+                        ui: 'plain',
+                        icon: 'resources/images/more.png'
+                    }
+                ]
+            },
+            {
+                xtype: 'toolbar',
+                docked: 'bottom',
+                ui: 'light',
+                items: [
+                    {
+                        xtype: 'button',
+                        centered: true,
+                        cls: 'toolbar-button-cls',
+                        ui: 'plain',
+                        icon: 'resources/images/calendar.png'
+                    }
+                ]
+            },
+            {
+                xtype: 'list',
+                cls: 'listview-cls',
+                itemTpl: [
+                    '<div>List Item {string}</div>'
+                ]
+            }
+        ]
     }
 
 });
