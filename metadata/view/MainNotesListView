@@ -1,0 +1,13 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mainnoteslistview",
+        "designer|userClassName": "MainNotesListView"
+    },
+    "designerId": "78db8331-6306-4b58-b145-490f69e21a70"
+}

@@ -32,7 +32,10 @@
     "framework": "touch23",
     "viewOrderMap": {
         "view": [
-            "1b43d045-dd6a-4fd1-9043-523bb39c660b"
+            "1b43d045-dd6a-4fd1-9043-523bb39c660b",
+            "4ce9f9c1-f999-4d21-ab4a-ec5e463d1ac0",
+            "78db8331-6306-4b58-b145-490f69e21a70",
+            "cfcc79b8-00e2-42b2-9fdc-3cb6e5e981f5"
         ],
         "store": [],
         "controller": [],

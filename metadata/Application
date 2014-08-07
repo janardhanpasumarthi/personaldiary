@@ -8,7 +8,10 @@
     "userConfig": {
         "name": "MyDiary",
         "views": [
-            "InitialView"
+            "InitialView",
+            "LoginPanel",
+            "MainNotesListView",
+            "RegistrationPanel"
         ]
     },
     "designerId": "application"

@@ -17,10 +17,28 @@ Ext.define('MyDiary.view.InitialView', {
     extend: 'Ext.Panel',
     alias: 'widget.mainview',
 
+    requires: [
+        'MyDiary.view.LoginPanel',
+        'MyDiary.view.MainNotesListView',
+        'MyDiary.view.RegistrationPanel',
+        'Ext.Panel'
+    ],
+
     config: {
         fullscreen: true,
-        html: 'Sample',
-        scrollable: 'vertical'
+        layout: 'card',
+        scrollable: 'vertical',
+        items: [
+            {
+                xtype: 'loginpanel'
+            },
+            {
+                xtype: 'mainnoteslistview'
+            },
+            {
+                xtype: 'registrationpanel'
+            }
+        ]
     }
 
 });

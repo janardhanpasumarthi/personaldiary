@@ -10,8 +10,41 @@
         "designer|userAlias": "mainview",
         "designer|userClassName": "InitialView",
         "fullscreen": true,
-        "html": "Sample",
+        "html": null,
+        "layout": "card",
         "scrollable": "vertical"
     },
-    "designerId": "1b43d045-dd6a-4fd1-9043-523bb39c660b"
+    "designerId": "1b43d045-dd6a-4fd1-9043-523bb39c660b",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "ee7d16f5-6844-4891-8bb4-9ff0cc5da543",
+            "masterInstanceId": "4ce9f9c1-f999-4d21-ab4a-ec5e463d1ac0"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "d8972e6a-10dd-409d-96a5-e547396b0ba6",
+            "masterInstanceId": "78db8331-6306-4b58-b145-490f69e21a70"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "942673c1-373a-4fcf-9f46-fd49eedd4e32",
+            "masterInstanceId": "cfcc79b8-00e2-42b2-9fdc-3cb6e5e981f5"
+        }
+    ]
 }

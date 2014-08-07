@@ -1,0 +1,13 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "loginpanel",
+        "designer|userClassName": "LoginPanel"
+    },
+    "designerId": "4ce9f9c1-f999-4d21-ab4a-ec5e463d1ac0"
+}
